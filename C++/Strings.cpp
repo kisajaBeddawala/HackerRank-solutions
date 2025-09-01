@@ -1,0 +1,17 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+    string s1;
+    string s2;
+
+    cin >> s1;
+    cin >> s2;
+
+    cout << s1.size() << " " << s2.size() << endl;
+    cout << s1 + s2 << endl;
+    swap(s1[0],s2[0]);  //use swap to change string first characters
+    cout << s1 << ' ' << s2;
+    return 0;
+}
